@@ -1,0 +1,29 @@
+/**index.wxss**/
+
+.textview {
+  margin: 5rpx 20rpx 100rpx 20rpx;
+}
+
+.text {
+  font-size: 45rpx;
+}
+
+.textinput {
+  margin: 5rpx 20rpx 5rpx 20rpx;
+  border-bottom: 1rpx solid #09bb07;
+  font-size: 40rpx;
+}
+
+.scrollview {
+  height: 60%;
+  position: absolute;
+  top: 260rpx;
+}
+
+.itemview {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 20rpx 20rpx 20rpx 20rpx;
+  border-bottom: 1px solid #b1b1b1;
+}

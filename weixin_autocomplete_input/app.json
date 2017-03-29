@@ -1,0 +1,10 @@
+{
+  "pages":[
+    "pages/index/index"    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#353535",
+    "navigationBarTitleText": "自动完成文本框"
+  }
+}

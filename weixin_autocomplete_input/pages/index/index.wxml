@@ -1,0 +1,13 @@
+
+<!--index.wxml-->
+<view class="textview">
+  <text class="text">Tip:输入内容后，下方自动显示匹配的结果，点击结果项自动完成输入</text>
+</view>
+<view>
+  <input class="textinput" bindinput="bindinput" value="{{inputValue}}" placeholder="请输入内容" />
+</view>
+<scroll-view scroll-y="true" class="scrollview">
+  <view wx:for="{{bindSource}}">
+    <view id="{{item}}" bindtap="itemtap" class="itemview">{{item}}</view>
+  </view>
+</scroll-view>
